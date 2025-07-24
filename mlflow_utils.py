@@ -141,6 +141,3 @@ def list_registered_models():
             return list(names)
     except Exception as e:
         return {"error": str(e)}
-
-
-
